@@ -14,8 +14,7 @@ function M.config()
     g = { name = "Git" },
     l = { name = "LSP" },
     p = { name = "Plugins" },
-    t = { name = "Test" },
-    a = {
+    t = {
       name = "Tab",
       n = { "<cmd>$tabnew<cr>", "New Empty Tab" },
       N = { "<cmd>tabnew %<cr>", "New Tab" },
