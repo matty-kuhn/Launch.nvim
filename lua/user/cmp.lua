@@ -36,6 +36,11 @@ local M = {
     {
       "hrsh7th/cmp-nvim-lua",
     },
+    {
+      "zbirenbaum/copilot-cmp",
+      event = "InsertEnter",
+      commit = "72fbaa03695779f8349be3ac54fa8bd77eed3ee3",
+    },
   },
 }
 
