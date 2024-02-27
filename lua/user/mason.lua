@@ -9,12 +9,14 @@ local M = {
 function M.config()
   local servers = {
     "lua_ls",
-    "cssls",
-    "html",
-    "tsserver",
-    "pyright",
     "bashls",
     "jsonls",
+    "yamlls",
+    "marksman",
+    "rust_analyzer",
+    "gopls",
+    "pyright",
+    "golangci_lint_ls",
   }
 
   require("mason").setup {

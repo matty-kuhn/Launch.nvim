@@ -67,15 +67,16 @@ function M.config()
 
   local servers = {
     "lua_ls",
-    "tsserver",
     "eslint",
-    "pyright",
     "bashls",
     "jsonls",
     "yamlls",
     "marksman",
     "clangd",
     "rust_analyzer",
+    "ruff_lsp",
+    "gopls",
+    "pyright",
   }
 
   local default_diagnostic_config = {
