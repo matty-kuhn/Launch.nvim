@@ -86,6 +86,10 @@ function M.config()
         },
       },
 
+      man_pages = {
+        sections = { "ALL" },
+      },
+
       planets = {
         show_pluto = true,
         show_moon = true,
