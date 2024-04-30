@@ -77,7 +77,6 @@ function M.config()
     "ruff_lsp",
     "gopls",
     "pyright",
-    "buf-language-server",
   }
 
   local default_diagnostic_config = {
