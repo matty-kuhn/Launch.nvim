@@ -2,6 +2,7 @@ local M = {
   "lewis6991/gitsigns.nvim",
   event = "BufEnter",
   cmd = "Gitsigns",
+  commit = "76927d14d3fbd4ba06ccb5246e79d93b5442c188",
 }
 M.config = function()
   local icons = require "user.icons"

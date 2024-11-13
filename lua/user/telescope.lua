@@ -15,11 +15,11 @@ function M.config()
     ["<leader>fh"] = { "<cmd>Telescope help_tags<cr>", "Help" },
     ["<leader>fl"] = { "<cmd>Telescope resume<cr>", "Last Search" },
     ["<leader>fr"] = { "<cmd>Telescope oldfiles<cr>", "Recent File" },
+    ["<leader>fd"] = { "<cmd>Telescope diagnostics<cr>", "Diagnostics" },
   }
 
   local icons = require "user.icons"
   local actions = require "telescope.actions"
-
 
   require("telescope").setup {
     defaults = {
@@ -64,6 +64,10 @@ function M.config()
       },
 
       grep_string = {
+        theme = "dropdown",
+      },
+
+      diagnostics = {
         theme = "dropdown",
       },
 
